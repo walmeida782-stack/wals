@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WALS Advisory & Tax - Imposto de Renda 2024</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --off-white: #F4F1EE; /* Tom exato do fundo do seu logo */
+            --deep-blue: #0F172A; /* Azul marinho profundo da WALS */
+            --gold: #B8860B; /* Dourado sofisticado */
+        }
+        body {
+            background-color: var(--off-white);
+            color: var(--deep-blue);
+            font-family: 'Inter', sans-serif;
+        }
+        h1, h2 {
+            font-family: 'Playfair Display', serif;
+        }
+        .btn-whatsapp {
+            background-color: var(--gold);
+            color: white;
+            transition: all 0.3s ease;
+        }
+        .btn-whatsapp:hover {
+            background-color: var(--deep-blue);
+            transform: translateY(-2px);
+        }
+        .card {
+            background: white;
+            border-top: 3px solid var(--gold);
+        }
+        .logo-container img {
+            max-width: 280px;
+            height: auto;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col items-center">
+
+    <!-- Header / Logo -->
+    <header class="w-full max-w-4xl px-6 pt-12 text-center">
+        <div class="logo-container flex justify-center mb-10">
+            <!-- Logo principal do escritório -->
+            <img src="logo_claro.png" alt="WALS Advisory & Tax Logo" onerror="this.src='https://via.placeholder.com/280x280?text=WALS+ADVISORY+%26+TAX'">
+        </div>
+        
+        <span class="text-sm font-semibold tracking-widest uppercase text-[#B8860B] mb-2 block">Assessoria Especializada</span>
+        <h1 class="text-4xl md:text-5xl font-bold mb-6 leading-tight">
+            Gestão Inteligente do seu <br>
+            <span class="italic">Imposto de Renda</span>
+        </h1>
+        <div class="w-16 h-1 bg-[#B8860B] mx-auto mb-8"></div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="w-full max-w-5xl px-6 pb-20">
+        <div class="grid md:grid-cols-3 gap-6 mb-16">
+            <!-- Consultoria -->
+            <div class="card p-8 rounded shadow-lg text-center">
+                <div class="text-[#B8860B] flex justify-center mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                    </svg>
+                </div>
+                <h3 class="font-bold text-lg mb-2 uppercase tracking-tight">Tax Advisory</h3>
+                <p class="text-sm opacity-75">Análise estratégica de ativos e rendimentos para otimização fiscal rigorosa.</p>
+            </div>
+
+            <!-- Compliance -->
+            <div class="card p-8 rounded shadow-lg text-center">
+                <div class="text-[#B8860B] flex justify-center mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                    </svg>
+                </div>
+                <h3 class="font-bold text-lg mb-2 uppercase tracking-tight">Conformidade</h3>
+                <p class="text-sm opacity-75">Garantia de compliance total com as normativas da Receita Federal Brasileira.</p>
+            </div>
+
+            <!-- Performance -->
+            <div class="card p-8 rounded shadow-lg text-center">
+                <div class="text-[#B8860B] flex justify-center mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                    </svg>
+                </div>
+                <h3 class="font-bold text-lg mb-2 uppercase tracking-tight">Performance</h3>
+                <p class="text-sm opacity-75">Foco na maximização de restituições legítimas e redução de carga tributária.</p>
+            </div>
+        </div>
+
+        <!-- WhatsApp Banner -->
+        <section class="bg-[#0F172A] text-white rounded shadow-2xl p-12 text-center">
+            <h2 class="text-2xl font-bold mb-4">Segurança e sigilo para o seu patrimônio.</h2>
+            <p class="mb-8 text-slate-400">Entre em contato com a <strong>WALS</strong> para uma avaliação inicial.</p>
+            
+            <!-- Link do WhatsApp atualizado -->
+            <a href="https://wa.me/5511988560752" target="_blank" class="btn-whatsapp inline-flex items-center px-10 py-4 rounded text-sm font-bold uppercase tracking-widest shadow-lg">
+                Enviar Mensagem via WhatsApp
+            </a>
+
+            <!-- Número de telefone atualizado -->
+            <div class="mt-8 text-sm text-slate-500 italic">
+                Informações: 11 98856-0752
+            </div>
+        </section>
+    </main>
+
+    <footer class="w-full py-8 text-center text-[10px] uppercase tracking-widest opacity-40">
+        WALS Advisory & Tax &copy; 2024
+    </footer>
+
+</body>
+</html>
